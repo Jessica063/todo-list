@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(w1.png);
+    background-position: center;
+    background-size: cover; 
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 450px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: palevioletred;
+}
+
+.quote {
+    font-size: 16px;
+    color: rgb(116, 77, 90);
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #fcf9f9;
+    border-radius: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    color: #0d0d0d;
+    border: black;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, rgb(249, 193, 237), #ffffff); 
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input.complete {
+    margin-right: 10px;
+   
+}
+
+span {
+    flex: 1;
+    padding: 10px;
+
+}
+
+span.date {
+    font-size: 14px;
+    color: #888;
+    margin-right: 10px;
+}
+
+i.bx-edit {
+    font-size: 20px;
+    color: #009900; 
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+i.bx-edit:hover {
+    color: rgb(129, 224, 175);
+}
+
+i.bx-trash {
+    font-size: 20px;
+    color:palevioletred;
+    cursor: pointer;
+}
+
+i.bx-trash:hover {
+    color: rgb(183, 95, 125);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #5a5656;
+}
+
+.complete {
+    margin-right: 5px;
+}
+.filter-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.filter-dropdown {
+    padding: 5px;
+    border: 1px solid #5e5c5c;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #87CEFA, #ffffff); /
+}
+
+.filter-button, #clear-all {
+    margin: 5px;
+    margin-left: 280px;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #87CEFA, #ffffff); 
+}
+
+.filter-button:hover, #clear-all:hover {
+    background: linear-gradient(to bottom, #add8e6, #fcf9f9); 
+}
+
+.complete {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .complete[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .complete[type="checkbox"]::before {
+    content: '\2713';
+    font-size: 18px;
+    line-height: 20px;
+    color: #76c4f5; 
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #76c4f5; 
+    background-color: #fff; 
+    border-radius: 3px; 
+    margin-right: 5px;
+  }
+  
+  .complete[type="checkbox"]:checked::before {
+    content: '\2713'; 
+    color: #009900; 
+    background-color: #fff; 
+    border: 1px solid #009900; 
+  }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .container {
+        width: 90%; 
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .header h1 {
+        font-size: 20px; 
+    }
+
+    .quote {
+        font-size: 12px; 
+    }
+
+    input[type="text"] {
+        width: 60%; 
+    }
+
+    button {
+        font-size: 12px; 
+    }
+    .filter-button, #clear-all {
+        margin: 5px;
+        margin-left: 150px;
+        padding: 5px 10px;
+        border: 1px solid #000;
+        border-radius: 50px;
+        cursor: pointer;
+        background: linear-gradient(to bottom, #87CEFA, #ffffff); 
+    }
+    
+}

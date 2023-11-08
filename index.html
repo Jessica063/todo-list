@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TO-DO-LIST </h1>
+            <p class="quote">"Your positive action combined with positive thinking results in success." </p>
+        </div>
+        <div class="input-container">
+            <input type="text" id="task" placeholder="Add a new task...">
+            <button id="add">Add</button>
+        </div>
+        <div class="filter-container">
+            <select id="filter" class="filter-dropdown">
+                <option value="all">All</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+            </select>
+            <button id="clear-all">Clear All</button>
+        </div>              
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

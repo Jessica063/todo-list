@@ -39,4 +39,4 @@ A user-friendly and responsive To-Do List Web Application built with HTML, CSS, 
 - Implement task sorting by date or priority.  
 - Enable task sharing or export options.  
 
-
+Developed by [Jessica dsouza](https://github.com/Jessica063)

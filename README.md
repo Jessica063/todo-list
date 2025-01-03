@@ -21,7 +21,7 @@ A user-friendly and responsive To-Do List Web Application built with HTML, CSS, 
 
 1. Clone the Repository:  
    bash  
-   git clone https://github.com/yourusername/todo-list-app.git  
+   git clone https://github.com/Jessica063/todo-list-app.git  
    cd todo-list-app  
 
 2. Open the Application:  
